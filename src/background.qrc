@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/Background">
+        <file>BackGround/Background2.png</file>
+        <file>BackGround/Planet3.png</file>
+        <file>BackGround/Planet2.png</file>
+        <file>BackGround/Jupiter.png</file>
+        <file>BackGround/Balloon2.png</file>
+        <file>BackGround/Moon.png</file>
+        <file>BackGround/Cloud5.png</file>
+        <file>BackGround/Cloud4.png</file>
+        <file>BackGround/Cloud3.png</file>
+        <file>BackGround/Clouds2.png</file>
+        <file>BackGround/Cloud1.png</file>
+        <file>BackGround/Balloon.png</file>
+        <file>BackGround/Sun.png</file>
+        <file>BackGround/Floor.png</file>
+        <file>BackGround/second.png</file>
+        <file>BackGround/first.png</file>
+        <file>BackGround/background.png</file>
+    </qresource>
+    <qresource prefix="/Menu">
+        <file>Menu/Perfect_Drops.png</file>
+        <file>Menu/Game_Points.png</file>
+        <file>Menu/TowerHeight.png</file>
+        <file>Menu/exit.png</file>
+        <file>Menu/Reset.png</file>
+        <file>Menu/Game_time.png</file>
+        <file>Menu/Resume.png</file>
+        <file>Menu/How_to_Play.png</file>
+        <file>Menu/High_Scores.png</file>
+        <file>Menu/Play.png</file>
+        <file>Menu/Menu3.png</file>
+        <file>Menu/Menu2.png</file>
+        <file>Menu/Menu1.png</file>
+    </qresource>
+    <qresource prefix="/Block">
+        <file>Block/Roof_green.png</file>
+        <file>Block/Block_door_green.png</file>
+        <file>Block/Block_door_blue.png</file>
+        <file>Block/Block_balcony_blue.png</file>
+        <file>Block/Block_balcony_red.png</file>
+        <file>Block/Block_balcony.png</file>
+        <file>Block/Block_door.png</file>
+        <file>Block/block.png</file>
+        <file>Block/Block_window.png</file>
+    </qresource>
+</RCC>
