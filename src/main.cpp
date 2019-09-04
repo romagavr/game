@@ -113,9 +113,9 @@ int main(int argc, char *argv[]) {
 
     MainMenu menu;
     GameWindow* game = new GameWindow();
-    BackGround howToPlay("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Menu3.png", 0);
-    BackGround gameOver("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Game_Over.png", 0);
-    BackGround gameWin("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Game_Win.png", 0);
+    BackGround howToPlay("/home/roman/Documents/Others/game/res/Menu/Menu3.png", 0);
+    BackGround gameOver("/home/roman/Documents/Others/game/res/Menu/Game_Over.png", 0);
+    BackGround gameWin("/home/roman/Documents/Others/game/res/Menu/Game_Win.png", 0);
     bool menuShow = true;
     int button = 0;
     int overTime = 0;

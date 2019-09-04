@@ -40,20 +40,20 @@ MainMenu::MainMenu()
     glBindVertexArray(0);
     CHECK_GL_ERRORS();
 
-    ImageData texture = loadPngImage("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Main_menu.png");
+    ImageData texture = loadPngImage("/home/roman/Documents/Others/game/res/Menu/Main_menu.png");
     glGenTextures(1, &textures);
     glBindTexture(GL_TEXTURE_2D, textures);
     glTexImage2D(GL_TEXTURE_2D, 0,GL_RGBA, texture.width, texture.height,0, GL_RGBA, GL_UNSIGNED_BYTE, texture.data);
     glTexParameterf(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameterf(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 
-    UIElements play("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Play.png",90,400,5,2);
+    UIElements play("/home/roman/Documents/Others/game/res/Menu/Play.png",90,400,5,2);
     menuButtons.push_back(play);
-    UIElements resume("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Resume.png",90,300,5,2);
+    UIElements resume("/home/roman/Documents/Others/game/res/Menu/Resume.png",90,300,5,2);
     menuButtons.push_back(resume);
-    UIElements hscores("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/High_Scores.png",90,200,5,2);
+    UIElements hscores("/home/roman/Documents/Others/game/res/Menu/High_Scores.png",90,200,5,2);
     menuButtons.push_back(hscores);
-    UIElements hToPlay("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/How_to_Play.png",90,100,5,2);
+    UIElements hToPlay("/home/roman/Documents/Others/game/res/Menu/How_to_Play.png",90,100,5,2);
     menuButtons.push_back(hToPlay);
 }
 

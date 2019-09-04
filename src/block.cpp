@@ -60,11 +60,6 @@ Block::Block()
     int uvAttribLocation = glGetAttribLocation(shaderProgram, "aUV");
     CHECK_GL_ERRORS();
 
-    blockTex.push_back("/home/roman/Desktop/OpenGL_Practice_FULL/res/Block/Block_window.png");
-    blockTex.push_back("/home/roman/Desktop/OpenGL_Practice_FULL/res/Block/Block_balcony.png");
-    blockTex.push_back("/home/roman/Desktop/OpenGL_Practice_FULL/res/Block/Block_balcony_blue.png");
-    blockTex.push_back("/home/roman/Desktop/OpenGL_Practice_FULL/res/Block/Block_balcony_red.png");
-
     VBO = 1;
     glGenBuffers (1, &VBO);
     glBindBuffer (GL_ARRAY_BUFFER, VBO);
@@ -89,9 +84,14 @@ Block::Block()
 void Block::genTextures()
 {
 
+    blockTex.push_back("/home/roman/Documents/Others/game/res/Block/Block_window.png");
+    blockTex.push_back("/home/roman/Documents/Others/game/res/Block/Block_balcony.png");
+    blockTex.push_back("/home/roman/Documents/Others/game/res/Block/Block_balcony_blue.png");
+    blockTex.push_back("/home/roman/Documents/Others/game/res/Block/Block_balcony_red.png");
+
     glGenTextures(6, textures);
 
-    ImageData texture2 = loadPngImage("/home/roman/Desktop/OpenGL_Practice_FULL/res/Block/block.png");
+    ImageData texture2 = loadPngImage("/home/roman/Documents/Others/game/res/Block/block.png");
     for (int i=0; i<6; i++)
     {
         if (i==2) continue;

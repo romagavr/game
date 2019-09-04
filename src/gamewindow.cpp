@@ -15,14 +15,14 @@ GameWindow::GameWindow()
     line = new Line();
     generateNumber = new GenNumber();
     generateTimerNumber = new GenNumber();
-    backGrItems.push_back(new BackGround("/home/roman/Desktop/OpenGL_Practice_FULL/res/BackGround/Background2.png", 538*1.3));
-    backGrItems.push_back(new BackGround("/home/roman/Desktop/OpenGL_Practice_FULL/res/BackGround/Floor.png", 0));
-    backGrItems.push_back(new BackGround("/home/roman/Desktop/OpenGL_Practice_FULL/res/BackGround/first.png", 0));
+    backGrItems.push_back(new BackGround("/home/roman/Documents/Others/game/res/BackGround/Background2.png", 538*1.3));
+    backGrItems.push_back(new BackGround("/home/roman/Documents/Others/game/res/BackGround/Floor.png", 0));
+    backGrItems.push_back(new BackGround("/home/roman/Documents/Others/game/res/BackGround/first.png", 0));
     backGrItems[1]->resetScale(3,1);
     backGrItems[1]->move(0,133);
 
-    userUI.push_back(new UIElements("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Game_time.png",0,600,3.5,1.5));
-    userUI.push_back(new UIElements("/home/roman/Desktop/OpenGL_Practice_FULL/res/Menu/Game_Points.png",3,550,3.5,1.3));
+    userUI.push_back(new UIElements("/home/roman/Documents/Others/game/res/Menu/Game_time.png",0,600,3.5,1.5));
+    userUI.push_back(new UIElements("/home/roman/Documents/Others/game/res/Menu/Game_Points.png",3,550,3.5,1.3));
 
     heapOfBlocks.resize(BLOCKS_AMOUNT);
     for (int i=0; i<heapOfBlocks.size(); i++)
